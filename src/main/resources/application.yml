@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 7093160053@kK
+    url: jdbc:mysql://localhost:3306/EmployeeCrud
+    username: root
+  application:
+    name: CrudOperations
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
