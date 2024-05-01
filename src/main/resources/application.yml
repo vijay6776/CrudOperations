@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: 7093160053@kK
-    url: jdbc:mysql://mysqldb:3306/EmployeeCrud
+    url: jdbc:mysql://mysqldb:3306/sbms
     username: root
   application:
     name: CrudOperations
@@ -13,3 +13,4 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher
+ 
